@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display');
+
+
+main {
+    width: 100%;
+    max-width: 920px;
+    height: 100%;
+    max-height: 500px; 
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+article {
+    width: 100%;
+    display: flex;
+}
+
+section {
+    width: 100%;
+    padding: 3.25em;
+}
+
+h1 {
+    color: var(--Very_light_gray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5em;
+    font-weight: var(--Weights_bold);
+    letter-spacing: 0.05em;
+}
+
+p {
+    width: 100%;
+    max-width: 210px;
+    color: var(--Transparent_white);
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+
+.button {
+    background-color: var(--Very_light_gray);
+    border-radius: 5em;
+    font-size: 0.75em;
+    padding:  1.5em 2em;
+    display: inline; 
+}
+
+.button h2 {
+    display: inline-block; 
+    margin: 5em 0 1em 0; 
+}
+
+.sedans {
+    background-color: var(--Bright_orange);
+    border-radius: 7.5px 0 0 7.5px;
+    color: var(--Bright_orange);
+    font-weight: var(--Weights_regular);
+} 
+
+
+.suvs {
+    background-color: var(--Dark_cyan);
+    color: var(--Dark_cyan);
+    font-weight: var(--Weights_bold);
+}
+
+.luxury {
+    background-color: var(--Very_dark_cyan);
+    border-radius: 0 7.5px 7.5px 0;
+    color: var(--Very_dark_cyan);
+    font-weight: var(--Weights_bold);
+}
+
+
